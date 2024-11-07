@@ -1,0 +1,2 @@
+Functions are a block of code that achieves a particular task
+They can also be said to be a block of code that helps us to reuse our code 

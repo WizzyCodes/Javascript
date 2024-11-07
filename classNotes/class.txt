@@ -1,0 +1,42 @@
+Set10 Second Class 6
+
+• CLASS OBJECTIVES
+1. Array Methods Definition = {Plain Array, HigherOrder}
+2. Plain Array Methods
+
+ARRAY METHODS OVERVIEW.
+
+Definition.
+    Array methods are built-in functions in programming languages that allow you to easily manipulate arrays, enabling you to perform operations like adding, removing, sorting, or modifying elements, as well as transforming the array into different formats.
+
+
+PLAIN ARRAY Methods.
+    Plain array methods perform simple, direct operations on arrays, such as adding or removing elements.
+
+1. push(element1, ..., elementN): Adds one or more elements to the end of an array and returns the new length of the array.
+
+2. pop(): Removes the last element from an array and returns that element.
+
+3. shift(): Removes the first element from an array and returns that element.
+
+4. unshift(element1, ..., elementN): Adds one or more elements to the front of an array and returns the new length of the array.
+
+5. concat(array2, ..., arrayN): Merges two or more arrays and returns a new array.
+
+6. join(separator): Joins all elements of an array into a string and 7. returns this string.
+
+8. slice(begin, end): Returns a shallow copy of a portion of an array into a new array object.
+
+9. splice(start, deleteCount, item1, ..., itemN): Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+
+10. indexOf(searchElement, fromIndex): Returns the first index at which a given element can be found in the array.
+
+10. lastIndexOf(searchElement, fromIndex): Returns the last index at which a given element can be found in the array.
+
+11. reverse(): Reverses an array in place.
+
+12. sort(compareFunction): Sorts the elements of an array in place and returns the array.
+
+13. fill(value, start, end): Fills all the elements of an array from a start index to an end index with a static value.
+
+14. copyWithin(target, start, end): Shallow copies part of an array to another location in the same array and returns it.

@@ -1,0 +1,22 @@
+Set10 Second Class 8
+
+• CLASS OBJECTIVES
+1. Template Literals
+2. Spread Operator
+
+TEMPLATE LITERALS OVERVIEW.
+Template literals are a feature in JavaScript that allow for easier string creation, including embedding expressions and multi-line strings. They are enclosed by backticks (`) instead of the traditional single (') or double (") quotes.
+Embed expressions within a string using ${expression} syntax.
+
+
+SPREAD OPERATOR Operator OVERVIEW.
+
+The spread operator (...) in JavaScript allows an iterable (like an array or object) to be expanded 
+
+Copying Arrays/Objects: Create a shallow copy of an array or object.
+
+Merging Arrays/Objects: Combine multiple arrays or objects into one.
+
+Expanding Arrays: Pass elements of an array as individual arguments to a function.
+
+Adding/Modifying Properties: Add or modify properties in an object when copying.

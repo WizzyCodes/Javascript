@@ -1,0 +1,8 @@
+Set10 First Class 1
+
+• SETTING UP WORKSTATION JAVASCRIPT SERVER SIDE INSTALLATIONS
+1. Download Node Lts
+2. Download Vscode
+3. npm init --y
+4. npm i nodemon 
+5. "start": "nodemon String.js" inside my package json

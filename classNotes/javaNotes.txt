@@ -1,0 +1,183 @@
+Set10 Second Class 7.
+
+• CLASS OBJECTIVES
+1. Simple Plain Array METHODS Classwork
+2. HigherOrder Array Methods
+3. Differences Between Plain Array methods and HigherOrder Array Methods
+4. JavaScript Symbols Operators
+
+ARRAY METHODS OVERVIEW.
+
+HIGHER-ORDER ARRAY Methods.
+    Higher-order array methods, on the other hand, take functions as arguments to perform more complex operations, like transforming or filtering elements based on specified criteria.
+
+ JavaScript Higher-Order Array Methods Class Notes
+
+1. Map
+   - Definition: Creates a new array by applying a function to every element of the original array.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element of the array.
+   - Returns: A new array with each element transformed by the callback.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+2. Filter
+   - Definition: Creates a new array with elements that pass the test implemented by the callback function.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element, including only the elements for which the callback returns true.
+   - Returns: A new array with the elements that pass the test.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+3. Reduce
+   - Definition: Reduces the array to a single value by applying a callback function against an accumulator and each element.
+   - Arguments: A callback function with up to four parameters: accumulator, element, index, and array. Optionally, an initial value for the accumulator.
+   - Operation: Executes the callback, accumulating the result into a single value.
+   - Returns: The final accumulated value.
+   - Return Data Type: Depends on the return value of the callback function (can be any data type).
+   - Alters Original Array: NO.
+
+4. ReduceRight
+   - Definition: Similar to reduce, but it processes the array from right to left.
+   - Arguments: A callback function with up to four parameters: accumulator, element, index, and array. Optionally, an initial value for the accumulator.
+   - Operation: Executes the callback, accumulating the result into a single value, starting from the last element.
+   - Returns: The final accumulated value.
+   - Return Data Type: Depends on the return value of the callback function (can be any data type).
+   - Alters Original Array: NO.
+
+5. forEach
+   - Definition: Executes a provided function once for each array element.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Applies the callback function to each element in the array.
+   - Returns: undefined.
+   - Return Data Type: Undefined.
+   - Alters Original Array: NO (but the callback can mutate the array).
+
+6. Find
+   - Definition: Returns the first element in the array that satisfies the provided testing function.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element until it finds one that returns true.
+   - Returns: The first element that satisfies the test, or undefined if none do.
+   - Return Data Type: Depends on the element type in the array.
+   - Alters Original Array: NO.
+
+7. FindIndex
+   - Definition: Returns the index of the first element in the array that satisfies the provided testing function.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element until it finds one that returns true.
+   - Returns: The index of the first element that satisfies the test, or -1 if none do.
+   - Return Data Type: Number.
+   - Alters Original Array: NO.
+
+8. Every
+   - Definition: Tests whether all elements in the array pass the test implemented by the provided function.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element to check if it returns true.
+   - Returns: true if all elements pass the test, otherwise false.
+   - Return Data Type: Boolean.
+   - Alters Original Array: NO.
+
+9. Some
+   - Definition: Tests whether at least one element in the array passes the test implemented by the provided function.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Executes the callback on each element until one returns true.
+   - Returns: true if at least one element passes the test, otherwise false.
+   - Return Data Type: Boolean.
+   - Alters Original Array: NO.
+
+10. Flat
+   - Definition: Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+   - Arguments: A depth value specifying how deep the flattening should go (default is 1).
+   - Operation: Flattens the array up to the given depth.
+   - Returns: A new flattened array.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+11. FlatMap
+   - Definition: Maps each element using a mapping function, then flattens the result into a new array.
+   - Arguments: A callback function with up to three parameters: element, index, and array.
+   - Operation: Applies the mapping function and flattens the result.
+   - Returns: A new array that is the result of the map and flatten operations.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+12. From
+   - Definition: Creates a new array instance from an array-like or iterable object.
+   - Arguments: An array-like or iterable object and an optional map function.
+   - Operation: Converts the object into an array, applying the map function if provided.
+   - Returns: A new array.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+13. Of
+   - Definition: Creates a new array with a variable number of arguments, regardless of number or type of the arguments.
+   - Arguments: Any number of arguments.
+   - Operation: Puts all arguments into a new array.
+   - Returns: A new array containing all the arguments.
+   - Return Data Type: Array.
+   - Alters Original Array: NO.
+
+
+JAVSCRIPT SYMBOLS OPERATORS
+JavaScript Symbols: Short Notes
+
+ 1. Equality and Identity Operators
+   - === (Strict Equality):
+     - Compares two values for equality without type conversion.
+     - Both the value and the type must be the same.
+     - Example: 5 === '5' returns false because the types (number and string) differ.
+   
+   - !== (Strict Inequality):
+     - Compares two values for inequality without type conversion.
+     - Returns true if either the value or type is different.
+     - Example: 5 !== '5' returns true because the types differ.
+
+   - == (Loose Equality):
+     - Compares two values for equality with type conversion.
+     - Converts the values to the same type before comparison.
+     - Example: 5 == '5' returns true because the string '5' is converted to a number.
+
+   - != (Loose Inequality):
+     - Compares two values for inequality with type conversion.
+     - Returns true if the values are not equal after conversion.
+     - Example: 5 != '5' returns false because they are equal after conversion.
+
+ 2. Logical Operators
+   - && (Logical AND):
+     - Returns true if both operands are true.
+     - Stops evaluating as soon as one operand is false.
+     - Example: true && false returns false.
+
+   - || (Logical OR):
+     - Returns true if at least one of the operands is true.
+     - Stops evaluating as soon as one operand is true.
+     - Example: true || false returns true.
+
+   - ! (Logical NOT):
+     - Inverts the boolean value of an operand.
+     - Example: !true returns false.
+
+ 3. Comparison Operators
+   - > (Greater Than):
+     - Returns true if the left operand is greater than the right operand.
+     - Example: 7 > 5 returns true.
+
+   - < (Less Than):
+     - Returns true if the left operand is less than the right operand.
+     - Example: 3 < 5 returns true.
+
+   - >= (Greater Than or Equal To):
+     - Returns true if the left operand is greater than or equal to the right operand.
+     - Example: 5 >= 5 returns true.
+
+   - <= (Less Than or Equal To):
+     - Returns true if the left operand is less than or equal to the right operand.
+     - Example: 5 <= 7 returns true.
+
+ Summary
+- === and !== perform strict comparison (without type conversion).
+- && and || are logical operators used for combining boolean expressions.
+- >, <, >=, and <= are comparison operators that evaluate the relative size of operands.
+- ! negates a boolean value, reversing it.
+
+These symbols are fundamental in controlling the flow and logic of JavaScript programs, enabling comparisons and decisions based on conditions.

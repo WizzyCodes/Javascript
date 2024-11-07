@@ -1,0 +1,13 @@
+* CLASS OBJECTIVES
+*. If and Else
+*. Tenary Operators
+
+IF and ELSE OVERVIEW.
+the if and else is a type of conditional statement that will execute a block of code when the condition in the if statement is truthy. If the condition is falsy, then the else block will be executed.
+
+Truthy and falsy values are converted to true or false in if statements.
+
+false
+0 (zero)
+-0 (negative zero)
+0n (BigInst zero)
